@@ -1,4 +1,5 @@
 import React, { useState} from "react"
+import { useNavigate } from "react-router-dom"
 
 function AddCard({ onAddToy }) {
 
@@ -7,6 +8,8 @@ function AddCard({ onAddToy }) {
         image: "",
 
     })
+
+    const navigate = useNavigate();
 
     function handleChange(e) {
         setFormData({
@@ -29,7 +32,10 @@ function AddCard({ onAddToy }) {
           body: JSON.stringify(toyObj)
         })
           .then(r=> r.json())
-          .then(data=> onAddToy(data))
+          .then(data=> {
+              onAddToy(data)
+              navigate('/known')
+          })
         }
 
     return (
