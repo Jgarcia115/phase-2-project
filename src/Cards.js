@@ -1,9 +1,8 @@
 import React from "react"
 
 function Cards({ toy }) {
-    const { id, name, likes, image} = toy
-
-
+    const { name, image} = toy
+    
     return (
         <div>
             <div className="card-body">
