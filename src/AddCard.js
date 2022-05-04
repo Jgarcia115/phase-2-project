@@ -40,7 +40,7 @@ function AddCard({ onAddToy }) {
 
     return (
         <section className='Add'>
-            <h1>Add a Toy</h1>
+            <h1>Submit Evidence</h1>
             <form onSubmit={handleSubmit}>
                 <label>
                     <input

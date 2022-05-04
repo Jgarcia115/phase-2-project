@@ -1,14 +1,16 @@
 
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+  text-align: center;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.About {
+  background-color: rgb(235, 46, 46);
+  height: 250px;
+  
 }
 
 .App-header {
@@ -36,6 +38,68 @@ nav a {
   transition: 0.1s;
 }
 
+nav a:hover,
+nav a:active {
+  color: red;
+  border-bottom: 2px solid red;
+}
+
+nav a.active {
+  color: white;
+  background: tomato;
+}
+
 h1 {
   text-align: center;
+}
+
+.container {
+  border: 3px solid #fff;
+  padding: 50px;
+}
+
+.card-body {
+  width: 30%;
+  float: left;
+  padding: 20px;
+  border: 2px solid red;
+}
+
+h5 {
+  text-align: center;
+  font-size: large;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+}
+
+form button {
+  margin-top: 5px;
+  padding: 0.5rem;
+  background-color: firebrick;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+form > input {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+form > fieldset {
+  text-align: left;
+  padding: 0.5rem;
 }

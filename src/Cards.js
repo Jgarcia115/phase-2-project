@@ -6,12 +6,10 @@ function Cards({ toy }) {
 
     return (
         <div>
-            <div className="card">
-                <div className="card-body">
-                    <h5 className="card-title">{name}</h5>
-                    <img src={image} alt='toy photo' width="250" height="250" />
-                </div>
-        </div>
+            <div className="card-body">
+                <h5 className="card-title">{name}</h5>
+                <img src={image} alt='toy photo' width="250" height="250" />
+            </div>
         </div>
     )
 }
