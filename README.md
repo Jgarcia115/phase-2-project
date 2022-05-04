@@ -7,7 +7,7 @@ Toy Database is a website for tracking documented, living toys.
 Use Toy Database to help keep photo proof of living and talking toys. If you find one, take a picture and add it to our online database!
 
 ## Usage
-
+![Example Use](https://media.giphy.com/media/XkRtObxi44U30JpYJa/giphy.gif)
 
 
 # Support
